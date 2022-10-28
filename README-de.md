@@ -8,7 +8,7 @@ Automatisches Login zum Testen einer Website.
 
 ## Wie man das automatische Login benutzt
 
-Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Lass die Eingabefelder unverändert und klicke auf `Anmelden`. Du kannst die normale Navigation benutzen, Änderungen machen und das Ergebnis sofort sehen. Das Benutzerkonto ist jedoch eingeschränkt und du darfst nur Seiten unter `http://website/edit/demo/` bearbeiten. Alle [Benutzerkonten werden](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md) in der Datei `system/extensions/yellow-user.ini` gespeichert.
+Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Lasse die Eingabefelder unverändert und klicke auf `Anmelden`. Du kannst die normale Navigation benutzen, Änderungen machen und das Ergebnis sofort sehen. Das Benutzerkonto ist jedoch eingeschränkt und du darfst nur Seiten unter `http://website/edit/demo/` bearbeiten. Alle [Benutzerkonten](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md) werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
 
 ## Installation
 
