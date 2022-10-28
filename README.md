@@ -1,3 +1,5 @@
+<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
+
 # Demo 0.8.7
 
 Automatic login for testing a website.
