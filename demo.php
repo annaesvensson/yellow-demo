@@ -46,7 +46,7 @@ class YellowDemo {
         } elseif ($action=="uninstall") {
             foreach ($this->yellow->system->getAvailable("email") as $email) {
                 if (!preg_match("/@demo.com$/", $email)) continue;
-                if (!preg_match("/demo/", $this->yellow->user->getUser("home", $email))) continue;
+                if ($this->yellow->user->getUser("home", $email)=="/") continue;
                 $name = $this->yellow->user->getUser("name", $email);
                 $ok = $this->yellow->user->remove($fileNameUser, $email);
                 $this->yellow->log($ok ? "info" : "error", "Remove user '".strtok($name, " ")."'");
