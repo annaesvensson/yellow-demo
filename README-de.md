@@ -4,7 +4,7 @@
 
 Automatisches Login zum Testen einer Website. [Demo ausprobieren](https://datenstrom.se/de/yellow/demo/).
 
-<p align="center"><img src="demo-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="demo-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
 ## Wie man das automatische Login benutzt
 
