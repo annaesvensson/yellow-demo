@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Demo 0.8.7
+# Demo 0.8.8
 
 Automatisk inloggning för att testa en webbplats. [Prova demon](https://datenstrom.se/sv/yellow/demo/).
 

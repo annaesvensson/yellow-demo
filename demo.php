@@ -2,7 +2,7 @@
 // Demo extension, https://github.com/annaesvensson/yellow-demo
 
 class YellowDemo {
-    const VERSION = "0.8.7";
+    const VERSION = "0.8.8";
     public $yellow;         // access to API
 
     // Handle initialisation
