@@ -2,7 +2,7 @@
 // Demo extension, https://github.com/annaesvensson/yellow-demo
 
 class YellowDemo {
-    const VERSION = "0.8.8";
+    const VERSION = "0.8.9";
     public $yellow;         // access to API
 
     // Handle initialisation
@@ -40,7 +40,7 @@ class YellowDemo {
                         "modified" => date("Y-m-d H:i:s", time()),
                         "status" => "active");
                     $ok = $this->yellow->user->save($fileNameUser, $email, $settings);
-                    $this->yellow->log($ok ? "info" : "error", "Add user 'Demo'");
+                    $this->yellow->toolbox->log($ok ? "info" : "error", "Add user 'Demo'");
                 }
             }
         } elseif ($action=="uninstall") {
@@ -49,7 +49,7 @@ class YellowDemo {
                 if ($this->yellow->user->getUser("home", $email)=="/") continue;
                 $name = $this->yellow->user->getUser("name", $email);
                 $ok = $this->yellow->user->remove($fileNameUser, $email);
-                $this->yellow->log($ok ? "info" : "error", "Remove user '".strtok($name, " ")."'");
+                $this->yellow->toolbox->log($ok ? "info" : "error", "Remove user '".strtok($name, " ")."'");
             }
         }
     }
