@@ -4,7 +4,7 @@
 
 Automatic login for testing a website. [Try the demo](https://datenstrom.se/yellow/demo/).
 
-<p align="center"><img src="demo-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="SCREENSHOT.png?raw=true" alt="Screenshot"></p>
 
 ## How to install an extension
 
