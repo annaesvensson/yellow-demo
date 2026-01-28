@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
-
 # Demo 0.9.1
 
-Automatisches Login zum Testen einer Website. [Demo ausprobieren](https://datenstrom.se/de/yellow/demo/).
+Automatisches Login zum Testen einer Website. Entwickelt von Anna Svensson.
 
 <p align="center"><img src="screenshot.png" alt="Bildschirmfoto"></p>
 
@@ -14,6 +12,4 @@ Automatisches Login zum Testen einer Website. [Demo ausprobieren](https://datens
 
 Die Anmeldeseite ist auf deiner Webseite vorhanden als `http://website/edit/`. Lasse die Eingabefelder unverändert und klicke auf `Anmelden`. Du kannst die normale Navigation benutzen, Änderungen machen und das Ergebnis sofort sehen. Das Benutzerkonto ist jedoch eingeschränkt und du darfst nur bestimmte Seiten bearbeiten. Alle [Benutzerkonten](https://github.com/annaesvensson/yellow-edit/tree/main/readme-de.md) werden in der Datei `system/extensions/yellow-user.ini` gespeichert.
 
-## Entwickler
-
-Anna Svensson. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Hast du Fragen? [Hilfe finden](https://datenstrom.se/de/yellow/help/).

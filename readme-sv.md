@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
-
 # Demo 0.9.1
 
-Automatisk inloggning för att testa en webbplats. [Prova demon](https://datenstrom.se/sv/yellow/demo/).
+Automatisk inloggning för att testa en webbplats. Utvecklad av Anna Svensson.
 
 <p align="center"><img src="screenshot.png" alt="Skärmdump"></p>
 
@@ -14,6 +12,4 @@ Automatisk inloggning för att testa en webbplats. [Prova demon](https://datenst
 
 Inloggningssidan är tillgänglig på din webbplats som `http://website/edit/`. Behåll inmatningsfälten oförändrade och klicka på `Logga in`. Du kan använda vanliga navigeringen, göra ändringar och se resultatet omedelbart. Användarkontot är dock begränsat och du får endast redigera vissa sidor. Alla [användarkonton](https://github.com/annaesvensson/yellow-edit/tree/main/readme-sv.md) lagras i filen `system/extensions/yellow-user.ini`.
 
-## Utvecklare
-
-Anna Svensson. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+Har du några frågor? [Få hjälp](https://datenstrom.se/sv/yellow/help/).
