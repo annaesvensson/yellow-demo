@@ -2,7 +2,7 @@
 // Demo extension, https://github.com/annaesvensson/yellow-demo
 
 class YellowDemo {
-    const VERSION = "0.9.1";
+    const VERSION = "0.9.2";
     public $yellow;         // access to API
 
     // Handle initialisation
@@ -23,7 +23,7 @@ class YellowDemo {
     public function onUpdate($action) {
         $fileNameUser = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreUserFile");
         if ($action=="install") {
-            foreach ($this->yellow->system->getAvailable("language") as $language) {
+            foreach ($this->yellow->toolbox->enumerate("system", "language") as $language) {
                 $prefix = strtoloweru($this->yellow->language->getText("languageDescription", $language));
                 $email = "$prefix@demo.com";
                 if (!$this->yellow->user->isExisting($email)) {
@@ -44,7 +44,7 @@ class YellowDemo {
                 }
             }
         } elseif ($action=="uninstall") {
-            foreach ($this->yellow->system->getAvailable("email") as $email) {
+            foreach ($this->yellow->toolbox->enumerate("system", "email") as $email) {
                 if (!preg_match("/@demo.com$/", $email)) continue;
                 if ($this->yellow->user->getUser("home", $email)=="/") continue;
                 $name = $this->yellow->user->getUser("name", $email);

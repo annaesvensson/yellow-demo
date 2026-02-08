@@ -1,4 +1,4 @@
-# Demo 0.9.1
+# Demo 0.9.2
 
 Automatic login for testing a website. Developed by Anna Svensson.
 
