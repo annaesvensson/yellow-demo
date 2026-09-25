@@ -1,4 +1,4 @@
-# Demo 0.9.3
+# Demo 1.0.1
 
 Automatisk inloggning för att testa en webbplats. Utvecklad av Anna Svensson.
 
