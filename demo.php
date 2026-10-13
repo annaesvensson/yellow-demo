@@ -31,7 +31,7 @@ class YellowDemo {
                         "name" => "Demo",
                         "description" => $this->yellow->language->getText("editUserDescription", $language),
                         "language" => $language,
-                        "access" => "edit, upload",
+                        "access" => "edit",
                         "home" => "/demo/",
                         "hash" => $this->yellow->extension->get("edit")->response->createHash("password"),
                         "stamp" => $this->yellow->extension->get("edit")->response->createStamp(),
